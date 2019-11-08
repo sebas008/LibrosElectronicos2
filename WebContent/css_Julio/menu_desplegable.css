@@ -1,0 +1,49 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.navegacion{
+	width: 1000px;
+	margin: 30px auto;
+	font-size: 14px;
+}
+
+.navegacion ul{
+	list-style: none;
+}
+
+.menu_item > li{
+	position: relative;
+	display: inline-block;
+}
+
+.menu_item > li > a{
+	display: block;
+	padding: 5px 5px;
+	color: #353535;
+	font-family: Arial;
+	text-decoration: none;
+}
+
+.menu_item li a:hover{
+	color: #CE7D35;
+}
+
+.menu_sub-item{
+	position: absolute;
+	width: 90%;
+	display: none;
+}
+
+.menu_sub-item li a{
+	display: block;
+	padding: 15px;
+	font-family: Arial;
+	text-decoration: underline;
+}
+
+.menu_item li:hover .menu_sub-item{
+	display: block;
+}
